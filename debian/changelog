@@ -1,5 +1,5 @@
 python-ooxml (0.10-1) unstable; urgency=low
 
-  * Initial upload to Debian, closes:
+  * Initial upload to Debian, closes: #769431
 
  -- Daniel James <daniel@64studio.com>  Thu, 13 Nov 2014 15:13:53 +0000

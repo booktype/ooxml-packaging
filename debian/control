@@ -2,7 +2,15 @@ Source: python-ooxml
 Section: python
 Priority: optional
 Maintainer: Daniel James <daniel@64studio.com>
-Build-Depends: debhelper (>= 8), dh-python, python-all (>= 2.7.3-4~), python-setuptools, python-sphinx (>= 1.0.7+dfsg), python3-all, python3-setuptools, python3-sphinx
+Build-Depends:
+ debhelper (>= 8),
+ dh-python,
+ python-all (>= 2.7.3-4~),
+ python-setuptools,
+ python-sphinx (>= 1.0.7+dfsg),
+ python3-all,
+ python3-setuptools,
+ python3-sphinx
 X-Python-Version: >= 2.7
 X-Python3-Version: >= 3.3
 Standards-Version: 3.9.5
@@ -12,7 +20,11 @@ Vcs-Browser: https://github.com/booktype/ooxml-packaging
 
 Package: python-ooxml
 Architecture: all
-Depends: python-lxml, python-six, ${python:Depends}, ${misc:Depends}
+Depends:
+ python-lxml,
+ python-six,
+ ${python:Depends},
+ ${misc:Depends}
 Description: Python library for parsing .docx (Office Open XML) files
  Python-OOXML is a Python library for parsing .docx (Office Open XML) files. At
  the moment it only supports HTML as the output format.
@@ -27,7 +39,11 @@ Description: Python library for parsing .docx (Office Open XML) files
 
 Package: python3-ooxml
 Architecture: all
-Depends: python3-lxml, python3-six, ${python3:Depends}, ${misc:Depends}
+Depends:
+ python3-lxml,
+ python3-six,
+ ${python3:Depends},
+ ${misc:Depends}
 Description: Python 3 library for parsing .docx (Office Open XML) files
  Python-OOXML is a Python library for parsing .docx (Office Open XML) files. At
  the moment it only supports HTML as the output format.
