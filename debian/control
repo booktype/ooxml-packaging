@@ -20,6 +20,7 @@ Vcs-Browser: https://github.com/booktype/ooxml-packaging
 
 Package: python-ooxml
 Architecture: all
+Pre-Depends: dpkg (>= 1.15.6~)
 Depends:
  python-lxml,
  python-six,
@@ -39,6 +40,7 @@ Description: Python library for parsing .docx (Office Open XML) files
 
 Package: python3-ooxml
 Architecture: all
+Pre-Depends: dpkg (>= 1.15.6~)
 Depends:
  python3-lxml,
  python3-six,
