@@ -7,11 +7,15 @@ Build-Depends:
  dh-python,
  python-all (>= 2.7.3-4~),
  python-lxml,
+ python-mock,
  python-setuptools,
- python-sphinx (>= 1.0.7+dfsg),
  python-six,
+ python-sphinx (>= 1.0.7+dfsg),
  python3-all,
+ python3-lxml,
+ python3-mock,
  python3-setuptools,
+ python3-six,
  python3-sphinx
 X-Python-Version: >= 2.7
 X-Python3-Version: >= 3.3
