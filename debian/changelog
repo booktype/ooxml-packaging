@@ -1,3 +1,9 @@
+python-ooxml (0.11-1) unstable; urgency=low
+
+  * Improve footnotes and add endnote support
+
+ -- Daniel James <daniel@64studio.com>  Mon, 24 Nov 2014 16:57:57 +0000
+
 python-ooxml (0.10-1) unstable; urgency=low
 
   * Initial upload to Debian, closes: #769431
